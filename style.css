@@ -1,0 +1,62 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: lightblue;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+nav h2{
+    display: inline;
+    text-decoration: none;
+}
+nav a{
+    margin: 0 15px;
+    text-decoration: none;
+}
+.hero{
+    text-align: center;
+    padding: 50px 20px;
+}
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.hero button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.skills {
+    text-align: center;
+    padding: 50px 20px;
+}
+.skills h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.skill-card {
+    width: 250px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.skill-card:hover {
+    transform: translateY(-5px);
+}
